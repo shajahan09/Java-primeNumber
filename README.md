@@ -16,12 +16,18 @@ public class PrimeNumber {
 
     public static void main(String[] args) {
         int count=0;
-        Scanner a = new Scanner(System.in);
-        System.out.println("Enter Number ");
-       int x = a.nextInt();
-        if( x==0 || x==1){
-            count++;
-        }
+     
+     Scanner a = new Scanner(System.in);
+     
+     System.out.println("Enter Number ");
+     
+     int x = a.nextInt();
+     
+     if( x==0 || x==1){
+     
+     count++;
+     
+     }
         for(int i=2;i<x; i++){
             if(x%i==0){
                 count++;
